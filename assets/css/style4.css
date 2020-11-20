@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  position: relative;
+  margin: 20px 25px;
+  padding: 15px 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  overflow: hidden;
+}
+
+nav ul {
+  margin-top: 10px;
+  display: block;
+  list-style: none;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+nav ul li {
+  padding: 12px 10px;
+  box-sizing: border-box;
+  color: #333;
+  transition: 1s;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #333;
+}
+
+nav ul li:hover a {
+  color: #6C63FF;
+}
+
+nav ul li a.active {
+  color: #6C63FF;
+}
+
+.text-purple {
+  color: #6C63FF;
+}
+
+.content {
+  position: relative;
+  margin: 40px 25px;
+  overflow: hidden;
+}
+
+.box {
+  position: relative;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2),
+  0 2px 2px rgba(0, 0, 0, .2);
+  padding: 30px 25px;
+  box-sizing: border-box;
+  margin: 0 10px;
+}
+
+footer {
+  position: relative;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  padding: 20px 25px;
+  box-sizing: border-box;
+  margin: 30px 25px;
+}
+
+.button-purple {
+  position: relative;
+  padding: 8px 15px;
+  background-color: #6C63FF;
+  color: #f3f3f3;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+  outline: none;
+  border: none;
+}
+
+@media only screen and (orientation: landscape) {
+  #icon {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: auto;
+  }
+
+  .navbar {
+    margin: 20px 50px;
+  }
+
+  .box {
+    margin: 0 40px;
+  }
+
+  #admin-image {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    margin: 20px auto;
+  }
+
+  footer {
+    margin: 30px 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  icon {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: auto;
+  }
+
+  .navbar {
+    margin: 20px 50px;
+  }
+
+  .box {
+    margin: 0 40px;
+  }
+
+  #admin-image {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    margin: 20px auto;
+  }
+
+  footer {
+    margin: 30px 100px;
+  }
+}
